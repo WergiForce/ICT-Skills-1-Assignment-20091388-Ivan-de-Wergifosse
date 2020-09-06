@@ -29,6 +29,7 @@ router.get("/trainerdashboard", trainerdashboard.index);
 router.get("/member/:id", member.index);
 router.get("/trainerdashboard/deletemember/:id", trainerdashboard.deleteMember);
 router.get("/member/:id/deleteassessment/:assessmentid",member.deleteAssessment)
+router.post("/member/:id/addcomment/:assessmentid",member.addComment);
 router.post("/member/:id/addassessment", member.addAssessment);
 
 router.get("/editmemberdetails",memberupdate.index);

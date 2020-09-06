@@ -6,6 +6,7 @@
       "lastName": "Wilson",
       "email": "dwilson@dnd.com",
       "password": "grant",
+      "address": "Forgotten Realms",
       "gender": "Male",
       "height": "196",
       "startingWeight": "120",
@@ -18,23 +19,49 @@
           "thigh": 26,
           "upperarm": 22,
           "waist": 42,
-          "hips": 40,
-          "comment": null
+          "hips": 40
         },
         {
-          "id": "7a63a150-f049-11ea-9eb8-1db7eca47ad7",
-          "timestamp": "Sun, 06 Sep 2020 14:01:36 GMT",
+          "id": "87d6ba40-f083-11ea-936e-07dbb0cb36ab",
+          "timestamp": "Sun, 06 Sep 2020 20:57:09 GMT",
           "weight": 110,
           "chest": 48,
           "thigh": 26,
           "upperarm": 22,
-          "waist": 40,
+          "waist": 42,
           "hips": 40,
-          "comment": null
+          "comment": "None"
         }
       ],
-      "BMI": 25.51,
-      "BMICategory": "OVERWEIGHT",
+      "BMI": 23.43,
+      "BMICategory": "NORMAL",
+      "isIdealBodyWeight": false
+    },
+    {
+      "id": "f867d660-f086-11ea-9951-6bc0192f61c7",
+      "firstName": "Henry",
+      "lastName": "Oak",
+      "email": "hoak@dnd.com",
+      "password": "lark",
+      "address": "Forgotten Realms",
+      "gender": "Male",
+      "height": "187",
+      "startingWeight": "80",
+      "assessments": [
+        {
+          "id": "0f7f3eb0-f087-11ea-9951-6bc0192f61c7",
+          "timestamp": "Sun, 06 Sep 2020 21:22:25 GMT",
+          "weight": 80,
+          "chest": 42,
+          "thigh": 18,
+          "upperarm": 16,
+          "waist": 32,
+          "hips": 32,
+          "comment": "None"
+        }
+      ],
+      "BMI": 22.88,
+      "BMICategory": "NORMAL",
       "isIdealBodyWeight": false
     }
   ]

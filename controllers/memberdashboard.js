@@ -55,11 +55,9 @@ const memberdashboard = {
       upperarm: Number(request.body.upperarm),
       waist: Number(request.body.waist),
       hips: Number(request.body.hips),
-      comment: null,
+      comment: "None"
     };
     logger.debug("Creating a new Assessment", newAssessment);
-
-
 
     memberStore.addAssessment(loggedInMember.id,newAssessment);
     response.redirect("/memberdashboard");

@@ -34,14 +34,28 @@ const member = {
       thigh: Number(request.body.thigh),
       upperarm: Number(request.body.upperarm),
       waist: Number(request.body.waist),
-      hips: Number(request.body.hips)
+      hips: Number(request.body.hips),
+      comment: request.body.comment
     };
     logger.debug("Creating a new Assessment", newAssessment);
 
     memberStore.addAssessment(memberId,newAssessment);
     response.redirect("/member/" + memberId);
-  }
+  },
 
+  addComment(request, response){
+    const memberId = request.params.id;
+    const member = memberStore.getMember(memberId);
+
+    const assessmentId = request.params.assessmentid;
+    const assessment = memberStore.getAssessment(assessmentId);
+
+    const comment = {
+      comment: request.body.comment
+    }
+    memberStore.comment(assessment, comment);
+    response.redirect("/member/" + memberId)
+  },
 
 };
 

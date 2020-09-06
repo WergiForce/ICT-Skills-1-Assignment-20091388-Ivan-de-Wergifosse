@@ -51,6 +51,7 @@ const accounts = {
       lastName: request.body.lastName,
       email: request.body.email,
       password: request.body.password,
+      address: request.body.address,
       gender: request.body.gender,
       height: request.body.height,
       startingWeight: request.body.startingWeight,

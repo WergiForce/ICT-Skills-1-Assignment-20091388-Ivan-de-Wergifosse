@@ -109,15 +109,8 @@ const memberStore = {
     this.store.save();
   },
 
-
-
-  updateAssessment(assessment, updatedAssessment) {
-    assessment.weight = updatedAssessment.weight;
-    assessment.chest = updatedAssessment.chest;
-    assessment.thigh = updatedAssessment.thigh;
-    assessment.upperarm = updatedAssessment.upperarm;
-    assessment.waist = updatedAssessment.waist;
-    assessment.hips = updatedAssessment.hips;
+  comment(assessment, comment) {
+    assessment.comment = comment.comment;
     this.store.save();
   },
 /*
