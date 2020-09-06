@@ -1,0 +1,41 @@
+{
+  "members": [
+    {
+      "id": "66fa1c40-f03d-11ea-98df-11b218131f0d",
+      "firstName": "Darryl",
+      "lastName": "Wilson",
+      "email": "dwilson@dnd.com",
+      "password": "grant",
+      "gender": "Male",
+      "height": "196",
+      "startingWeight": "120",
+      "assessments": [
+        {
+          "id": "bc4d3730-f048-11ea-837b-538b5c9289e4",
+          "timestamp": "Sun, 06 Sep 2020 13:56:17 GMT",
+          "weight": 120,
+          "chest": 48,
+          "thigh": 26,
+          "upperarm": 22,
+          "waist": 42,
+          "hips": 40,
+          "comment": null
+        },
+        {
+          "id": "7a63a150-f049-11ea-9eb8-1db7eca47ad7",
+          "timestamp": "Sun, 06 Sep 2020 14:01:36 GMT",
+          "weight": 110,
+          "chest": 48,
+          "thigh": 26,
+          "upperarm": 22,
+          "waist": 40,
+          "hips": 40,
+          "comment": null
+        }
+      ],
+      "BMI": 25.51,
+      "BMICategory": "OVERWEIGHT",
+      "isIdealBodyWeight": false
+    }
+  ]
+}

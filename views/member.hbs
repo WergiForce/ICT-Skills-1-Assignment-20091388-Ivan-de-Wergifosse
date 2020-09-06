@@ -1,0 +1,37 @@
+{{> trainermenu}}
+
+<header class="ui header">
+    <div class="ui horizontal segments">
+        <div class="ui center aligned segment">
+            <i class="big user circle icon"></i>
+            <h3>{{member.firstName}} {{member.lastName}}</h3>
+            <p>{{member.gender}}, {{member.height}} cm</p>
+        </div>
+        <div class="ui center aligned segment">
+            <i class="big heartbeat icon"></i>
+            <h3>BMI</h3>
+            <h4>{{member.BMI}} : {{member.BMICategory}}</h4>
+        </div>
+        <div class="ui center aligned segment">
+
+            {{#if member.isIdealBodyWeight}}
+                <i class="big green balance scale icon"></i>
+                <h3>Ideal Body Weight</h3>
+                <h4>Yes</h4>
+            {{else}}
+                <i class="big red balance scale icon"></i>
+                <h3>Ideal Body Weight</h3>
+                <h4>No</h4>
+            {{/if}}
+
+        </div>
+    </div>
+</header>
+
+<section class="ui center aligned middle aligned segment">
+
+    {{> taddassessment}}
+    {{> tlistassessments}}
+
+</section>
+
